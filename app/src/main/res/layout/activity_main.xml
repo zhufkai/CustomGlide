@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:onClick="test1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test1" />
+
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/image1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="test2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test2" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="test3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test3" />
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="test4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test4" />
+
+    <ImageView
+        android:id="@+id/image4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
